@@ -30,7 +30,7 @@ function Participants() {
 
   return (
     <div className="App">
-      <h1>Google Meet Participants -v2</h1>
+      <h1>Google Meet Participants -v2.1</h1>
       <ul>
         {participants.map((participant, index) => (
           <li key={index}>{participant}</li>
